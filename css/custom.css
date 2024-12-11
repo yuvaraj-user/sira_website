@@ -1,0 +1,412 @@
+#topbar {
+	background-image: linear-gradient(to right, rgb(10 85 160), rgb(35 165 60));
+}
+
+.f-30 {
+	font-size: 30px;
+}
+
+.f-12 {
+	font-size: 12px;
+}
+
+
+.f-14 {
+	font-size: 16px;
+}
+
+.f-57 {
+  font-size: 57px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.font-bolder {
+	font-weight: bolder;
+}
+
+.font-lighter {
+	font-weight: lighter;
+}
+
+.site-blue {
+	color: rgb(10 85 160);
+}
+
+.site-green {
+	color: rgb(35 165 60);
+}
+
+.site-blue-bg {
+	background: rgb(10 85 160) !important;
+}
+
+.site-green-bg {
+	background: rgb(35 165 60) !important;
+}
+
+.crop-card1 {
+	background-image: url('../images/rasi/Crop Card Forage Sorghum.jpg');
+	background-repeat: no-repeat;
+}
+
+.crop-card2 {
+	background-image: url('../images/rasi/Crop Card Forage Millet.jpg');
+	background-repeat: no-repeat;
+}
+
+.crop-card3 {
+	background-image: url('../images/rasi/Crop Card Forage Corn.jpg');
+	background-repeat: no-repeat;
+}
+
+.crop-card4 {
+	background-image: url('../images/rasi/Crop Card Forage Barseem.jpg');
+	background-repeat: no-repeat;
+}
+
+.crop-card5 {
+	background-image: url('../images/rasi/Crop Card Forage Lucerne 2.jpg');
+	background-repeat: no-repeat;
+}
+
+.crop-card6 {
+	background-image: url('../images/rasi/Crop Card rye grass.jpg');
+	background-repeat: no-repeat;
+}
+
+.border-round {
+	border-radius: 46px;
+	cursor: pointer;
+}
+
+.crop-card-h4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	text-align: center;background: rgb(10 85 160);    border-top-left-radius: 20px;border-top-right-radius: 20px;
+}
+
+.crop-card-content {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: white;
+	opacity: 0.85;
+	width: 50%;
+	margin: auto;
+	margin-top: 12px;
+	border-radius: 20px;
+	height: 107px;
+/*  opacity: 0;*/
+	display: none;
+}
+
+#back-to-top {
+	background: rgb(10 85 160);
+}
+
+header #mainmenu li li a:hover {
+    color: #ffffff;
+    background: rgb(35 165 60);
+}
+
+.crop-card-content p {
+	border-bottom: 1px solid #80808047;
+}
+
+#banner-text-content p {
+    background: #ffffff47;
+    border-radius: 15px;
+    color: black;
+}
+
+.crop-head {
+	font-size: 60px;
+    line-height: 60px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.border-round:hover > h4{
+	display: none !important;
+}
+
+.border-round:hover > .crop-card-content{
+	display: block !important;
+}
+
+.atr__image-main{
+	border-radius: 35px;
+	padding: 0px !important;
+}
+
+.field-service-section {
+/*	background: url('../images/rasi/Panaromic Image.png') !important;*/
+	background: url('../images/rasi/Fog Nature.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	padding: 100px 0 100px 0 !important;
+}
+
+.field-service-head {
+/*	color: rgb(118 118 86) !important;*/
+/*	color: rgb(10 85 160) !important;*/
+	color: white !important;
+
+
+}
+
+
+.side-logo-section {
+    width: 210px !important;
+    height: 424px !important;
+    bottom: -83px !important;
+    opacity: 0.80;
+}
+
+.career-input {
+	height: 45px !important;
+}
+
+.career-card {
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	border-radius: 30px;
+}
+
+.footer-section {
+	background: url('../images/rasi/Footer 4.png') !important;
+	background-repeat: no-repeat !important;
+/*    background-size: cover !important;*/
+    background-position: center;
+    background-size: 100% 100% !important;
+
+}
+
+
+.gradient-trans-color-bottom {
+    background: linear-gradient(180deg, rgba(var(--primary-color-rgb), 0) 0%, rgb(77 101 75 / 37%) 100%) !important;
+}
+
+.forage-millet,.forage-corn,.forage-berseem,.forage-lucerne,.ryegrass {
+	display: none;
+}
+
+.product_btn {
+	cursor: pointer;
+}
+
+.career_section {
+	padding: 90px 0 90px 0 !important;
+}
+
+
+/*Waves*/
+.waves-demo {
+    background: #9ac;
+}
+.waves {
+    color: transparent;
+/*    -webkit-text-stroke: 1px #fff;*/
+    position: relative;
+}
+.waves:after{
+    content: attr(data-word);
+    position: absolute;
+    top: 0;
+    left: 0;
+/*    color: #fff;*/
+	color: rgb(10 85 160);
+    animation: waves 2s ease-in-out infinite forwards;
+}
+@keyframes waves{
+    0%, 100% {
+        clip-path: polygon(0 66%, 11% 59%, 18% 51%, 26% 46%, 35% 41%, 48% 44%, 55% 54%, 63% 63%, 76% 60%, 82% 50%, 92% 48%, 100% 53%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0 66%, 8% 74%, 17% 77%, 28% 70%, 35% 57%, 48% 44%, 56% 39%, 69% 41%, 75% 47%, 84% 60%, 92% 61%, 100% 53%, 100% 100%, 0% 100%);
+    }
+}
+
+.f-48 {
+    font-size: 48px;
+}
+.f-40 {
+	font-size: 40px;
+}
+
+.ind-diary-img {
+    width: 110px !important;
+    height: 110px !important;
+    border-radius: 10px;
+}
+
+.loader {
+    background: url('../images/rasi/Loading.gif');
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 250px;
+    position: fixed !important;
+    left: 45% !important;
+    top: 30% !important;
+}
+
+.border-map-div {
+	border: 2px solid #8080801f;
+}
+
+#jarallax-container-0 {
+	top: 15px !important;
+} 
+
+.banner-additon-img {
+	position: absolute;
+    left: 5%;
+    top: 74%;
+    width: 35%;
+
+       /* position: absolute;
+    top: 74%;
+    width: 35%;
+    right: 0;*/
+}
+
+.rasi-hyperlink {
+	color: blue !important;
+}
+
+.crop-head1 {
+	font-size: 40px;
+/*    line-height: 60px;*/
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#logo {
+	padding: 10px !important;
+}
+
+#menu-btn {
+	display: none;
+}
+
+@keyframes updown {
+    0%   {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(3px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+}
+
+@keyframes shadow {
+    0%   {
+      transform: scale(1);
+      opacity: 0.20;
+    }
+
+    50% {
+      transform: scale(0.95);
+      opacity: 0.28;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0.20;
+    }
+}
+
+.icofont-location-pin {
+	    animation: updown 1s ease 0.2s infinite;
+}
+
+.shadow {
+    position: relative;
+    background-color: black;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    top: -20px;
+    opacity: 0.20;
+    z-index: 0;
+    left: -3px;
+    animation: shadow 1s ease 0.2s infinite;
+}
+
+/* responsive css start */
+
+@media only screen and (max-width: 600px) {
+	#menu-btn {
+		display: block;
+	}
+
+	.banner-additon-img {
+    	position: absolute;
+    	left: 5%;
+    	top: 80%;
+    	width: 60%;
+	}
+
+	.crop-head {
+    	font-size: 30px;
+	}
+
+	.f-57 {
+		font-size: 40px;
+	}
+
+	.f-48 {
+		font-size: 30px;
+	}
+
+	.loader {
+		left: 24% !important;
+	}
+
+	#mainmenu li .menu-item{
+		color: black !important;	
+	}
+	.header-light #mainmenu li.has-child:after {
+		color: black !important;
+	}
+
+	#mainmenu li ul li a {
+		color: black !important;	
+	}
+
+	.testimonial-heading,.testimonial-desc {
+		text-align: center;
+	}
+
+	.diary-img-section{
+		margin-top: 20px;
+	}
+
+	.diary-percent-section {
+		text-align: center !important;
+	}
+	.subfooter {
+		font-size: 12px;
+	}
+
+	.footer-section {
+		background-size: cover !important;
+	}
+
+	.crop-head1 {
+		font-size: 30px;
+	}
+
+}
+
+
+/* responsive css end */
