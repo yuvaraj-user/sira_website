@@ -1,0 +1,48 @@
+
+#mainmenu li .menu-item{
+	color: white !important;	
+}
+.header-light #mainmenu li.has-child:after {
+	color: white !important;
+}
+
+.smaller #mainmenu li .menu-item {
+	color: black !important;
+}	
+
+.smaller #mainmenu li.has-child:after {
+	color: black !important;
+}	
+
+/*	ul li {
+		font-size: 14px !important;
+	}*/
+
+.width-25per {
+    width: 15% !important;
+}
+
+#mission_row {
+	padding-bottom: 80px;
+	cursor: pointer;
+}
+
+/* responsive css start */
+
+@media only screen and (max-width: 600px) {
+	#mainmenu li .menu-item{
+		color: black !important;	
+	}
+	.header-light #mainmenu li.has-child:after {
+		color: black !important;
+	}
+
+	#mainmenu li ul li a {
+		color: black !important;	
+	}
+
+
+}
+
+
+/* responsive css end */
